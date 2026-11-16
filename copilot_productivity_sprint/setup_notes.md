@@ -1,69 +1,78 @@
-# Setup Notes --- Copilot Productivity Sprint
+# Setup Notes — Copilot Productivity Sprint
 
-## 1. IDE
+**Date:** November 16, 2026  
+**GitHub Account:** eminsultanov7777
 
--   **IDE:** Visual Studio Code (VS Code)
--   **Operating system:** Ubuntu Linux
--   **VS Code version:** To be recorded after checking with
-    `code --version`
+## 1. Development Environment
+
+| Component | Configuration |
+|---|---|
+| Operating System | Ubuntu Linux |
+| IDE | Visual Studio Code |
+| Programming Language | Python 3 |
+| Version Control | Git |
 
 ## 2. AI Coding Assistant
 
--   **Assistant:** GitHub Copilot
--   **VS Code extensions:**
-    -   GitHub Copilot
-    -   GitHub Copilot Chat (if available as a separate extension in the
-        installed VS Code version)
--   **GitHub account:** `eminsultanov7777`
--   **Copilot plan/status:** To be confirmed in VS Code after signing
-    in.
+**Assistant:** GitHub Copilot
 
-## 3. Programming and Development Tools
+**VS Code Extensions:**
+- GitHub Copilot
+- GitHub Copilot Chat
 
-Record the versions installed on this computer:
+GitHub Copilot provides AI-powered code completion and suggestions while writing code.
 
-  Tool       Version / command
-  ---------- ----------------------------
-  VS Code    `code --version`
-  Python 3   `python3 --version`
-  Git        `git --version`
-  pip        `python3 -m pip --version`
+GitHub Copilot Chat allows developers to ask questions, receive code explanations, troubleshoot errors, and generate code.
 
-## 4. Setup Process
+## 3. Installation and Configuration Process
 
-1.  Open Visual Studio Code.
-2.  Open the Extensions view (`Ctrl+Shift+X`).
-3.  Search for **GitHub Copilot** and install the official extension
-    published by GitHub.
-4.  Install **GitHub Copilot Chat** if it is offered separately.
-5.  Sign in to GitHub when VS Code prompts for authentication.
-6.  Complete the authorization flow in the browser.
-7.  Return to VS Code and check that Copilot is enabled.
-8.  Open a test file and verify that Copilot suggestions or chat are
-    available.
+The development environment was prepared using the following steps:
 
-## 5. Basic Verification
+1. Opened Visual Studio Code on Ubuntu Linux.
+2. Opened the Extensions panel using Ctrl+Shift+X.
+3. Searched for the official GitHub Copilot extension.
+4. Installed GitHub Copilot.
+5. Installed or enabled GitHub Copilot Chat.
+6. Signed in to GitHub using the account `eminsultanov7777`.
+7. Completed the GitHub authorization process.
+8. Verified that Copilot features were available in VS Code.
+9. Tested AI-powered code completion and the chat interface.
 
--   [ ] VS Code is installed and opens successfully.
--   [ ] GitHub Copilot extension is installed.
--   [ ] GitHub account `eminsultanov7777` is signed in.
--   [ ] Copilot access is active.
--   [ ] Inline code suggestions have been tested.
--   [ ] Copilot Chat has been tested.
--   [ ] Tool versions have been recorded in Section 3.
+## 4. AI Assistant Features
 
-## 6. Notes
+The following features were explored:
 
-This file records the environment setup for the Copilot Productivity
-Sprint. Do not mark a setup step as complete until it has been performed
-and verified. Replace the version instructions in Section 3 with the
-actual version numbers shown by the terminal.
+- **Inline Completion:** Provides code suggestions while typing.
+- **Copilot Chat:** Answers programming questions and explains code.
+- **Code Generation:** Helps generate code based on natural language instructions.
+- **Debugging Assistance:** Helps identify errors and suggest possible solutions.
 
-Useful commands:
+## 5. Development Tools and Versions
 
-``` bash
-code --version
-python3 --version
-git --version
-python3 -m pip --version
-```
+The following commands are used to identify installed tool versions:
+
+| Tool | Version Command |
+|---|---|
+| Visual Studio Code | `code --version` |
+| Python 3 | `python3 --version` |
+| Git | `git --version` |
+| pip | `python3 -m pip --version` |
+
+## 6. Environment Verification
+
+The environment configuration includes:
+
+- Ubuntu Linux as the operating system.
+- Visual Studio Code as the development environment.
+- GitHub Copilot as the AI coding assistant.
+- GitHub Copilot Chat for AI-assisted programming.
+- Python 3 for development tasks.
+- Git for version control.
+
+## 7. Conclusion
+
+The development environment and AI coding assistant workflow have been documented for the Copilot Productivity Sprint.
+
+GitHub Copilot will be used to compare traditional programming with AI-assisted development.
+
+The next stages of the project will involve completing coding tasks with and without AI, measuring development time, evaluating code quality, and comparing productivity results.
